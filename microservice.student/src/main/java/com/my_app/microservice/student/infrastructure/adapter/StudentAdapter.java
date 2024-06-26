@@ -30,7 +30,7 @@ public class StudentAdapter implements StudentService {
     }
 
     @Override
-    public List<Student> findByIdCourse(Long idCourse) {
-        return studentRepository.findAllByCourseId(idCourse);
+    public List<Student> findByIdCourse(Long courseId) {
+        return studentRepository.findAllByCourseId(courseId);
     }
 }

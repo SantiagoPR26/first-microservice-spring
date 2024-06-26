@@ -7,6 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/student")
 public class StudentController {
@@ -21,12 +23,17 @@ public class StudentController {
     }
 
     @GetMapping("/all")
-    public ResponseEntity<?> findAllStudent(){
+    public ResponseEntity<List<Student>> findAllStudent(){
         return ResponseEntity.ok(studentService.findAll());
     }
 
     @GetMapping("/search/{id}")
     public ResponseEntity<Student> findById(@PathVariable Long id){
         return ResponseEntity.ok(studentService.findById(id));
+    }
+
+    @GetMapping("/search-by-course/{idCourse}")
+    public ResponseEntity<?> findByIdCourse(@PathVariable Long idCourse){
+        return ResponseEntity.ok(studentService.findByIdCourse(idCourse));
     }
 }

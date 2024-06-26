@@ -27,3 +27,23 @@ mmicroservice.student/src/main/java/com/my_app/microservice/student/infrastructu
 {microservice.student/src/main/java/com/my_app/microservice/student/infrastructure/repository/student/StudentRepository.java,9\a\9afb58199625663abd2c93bcf7873ad2bedb3b51
 §
 wmicroservice.student/src/main/java/com/my_app/microservice/student/infrastructure/api/controller/StudentController.java,c\c\cc0341dccad10a078963ac4ace930df8aca8d1d4
+…
+Umicroservice.course/src/main/java/com/my_app/microservice/course/entities/Course.java,3\4\34d48cc9bf104dce19eeb8cd86bc74fe54091c8a
+ 
+pmicroservice.course/src/main/java/com/my_app/microservice/course/infrastructure/repository/CourseRepository.java,4\d\4d69303994a5b80d48ea2ccef1884acee95b9e2d
+Œ
+\microservice.course/src/main/java/com/my_app/microservice/course/domain/entities/Course.java,c\9\c920e715861a10d2939c22cfef6345564c9d2126
+’
+bmicroservice.course/src/main/java/com/my_app/microservice/course/domain/service/CourseService.java,f\8\f8ad37d734004733b9e5b8b96a7a427dfe7bd5ca
+š
+jmicroservice.course/src/main/java/com/my_app/microservice/course/infrastructure/adapter/CourseAdapter.java,9\8\981bb68359350494b122cb345fd0b1afe038c3fa
+¤
+tmicroservice.course/src/main/java/com/my_app/microservice/course/infrastructure/api/controller/CourseController.java,3\c\3cd57abfafd8d9640198433566fceefa07534b13
+Š
+Zmicroservice.course/src/main/java/com/my_app/microservice/course/client/StudentClient.java,8\f\8f929a93be75beb99200e06b403e158b297ecc1b
+–
+fmicroservice.course/src/main/java/com/my_app/microservice/course/infrastructure/api/dto/StudenDto.java,8\c\8c0378ab6ffba87c3b10283301754ade9a820401
+ž
+nmicroservice.course/src/main/java/com/my_app/microservice/course/infrastructure/repository/dto/StudentDto.java,2\0\207c5fada4fd97b362b517ae9bb4112d55471dc1
+­
+}microservice.course/src/main/java/com/my_app/microservice/course/infrastructure/api/dto/response/StudentByCourseResponse.java,9\e\9e4ef120d768c4b689cf124f044b3137358d96c1
